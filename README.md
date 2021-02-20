@@ -1,8 +1,8 @@
 # vite-vant-v3
 
-#### 仓库
+### pull
 ```bash
-https://github.com/frontend-qin/vite-vant-v3.git
+git clone https://github.com/frontend-qin/vite-vant-v3.git
 ```
 
 ### install
@@ -14,7 +14,7 @@ yarn
 ### 脚本
 ```bash
 
-# 本地服务接口
+# 启动本地服务接口
 yarn dev
 
 # 启动测试服务接口
@@ -38,7 +38,7 @@ yarn serve
 ```
 ### 配置接口环境
 
-[关于vite环境变量](https://cn.vitejs.dev/guide/env-and-mode.html);
+[关于vite环境变量](https://cn.vitejs.dev/guide/env-and-mode.html)
 
 ```bash
 # 配置本地开发接口地址
