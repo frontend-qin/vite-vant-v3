@@ -27,6 +27,7 @@ export default defineConfig({
             ]
         })
     ],
+    // 配置别名
     resolve: {
         alias: {
             '@': resolve('src')
@@ -34,6 +35,7 @@ export default defineConfig({
     },
     css: {
         postcss: {
+            // 配置px自动转rem
             plugins: [
                 autoprefixer(),
                 pxtorem({

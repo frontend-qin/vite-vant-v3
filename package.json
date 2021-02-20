@@ -3,14 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "test": "vite --mode test",
+    "prod": "vite --mode production",
     "devbuild": "vite build --mode development",
+    "testbuild": "vite build --mode test",
     "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "vant": "^3.0.6",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@types/node": "^14.14.30",

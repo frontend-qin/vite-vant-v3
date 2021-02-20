@@ -1555,6 +1555,11 @@ vscode-web-custom-data@^0.3.2:
   resolved "https://registry.npm.taobao.org/vscode-web-custom-data/download/vscode-web-custom-data-0.3.3.tgz#9e1f2388c718d6f190038a19d144834a436b876f"
   integrity sha1-nh8jiMcY1vGQA4oZ0USDSkNrh28=
 
+vue-router@4:
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-4.0.4.tgz?cache=0&sync_timestamp=1613740713323&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-4.0.4.tgz#ad9b4b7bbdad622407b4ff189b1646f48c1e9053"
+  integrity sha1-rZtLe72tYiQHtP8YmxZG9IwekFM=
+
 vue@^3.0.5:
   version "3.0.5"
   resolved "https://registry.npm.taobao.org/vue/download/vue-3.0.5.tgz#de1b82eba24abfe71e0970fc9b8d4b2babdc3fe1"
