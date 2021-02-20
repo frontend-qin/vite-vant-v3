@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite';
+
 import vue from '@vitejs/plugin-vue';
+
 import vitePluginImp from 'vite-plugin-imp';
 
 import autoprefixer from 'autoprefixer';
+
 import pxtorem from 'postcss-pxtorem';
 
 const path = require('path');
@@ -10,6 +13,10 @@ const path = require('path');
 const resolve = (dir: string): string => path.join(__dirname, dir);
 
 export default defineConfig({
+    build: {
+        outDir: 'dist',
+        assetsDir: '/static'
+    },
     plugins: [
         vue(),
         // 配置按需加载vant 组件
@@ -47,6 +54,13 @@ export default defineConfig({
     },
     server: {
         port: 9528,
-        proxy: {}
+        proxy: {
+            '/api': {
+                target: '代理目标地址',
+                changeOrigin: true,
+                ws: true,
+                rewrite: (path) => path.replace(/^\/api/, '')
+            }
+        }
     }
 });

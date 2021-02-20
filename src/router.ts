@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+const history = createWebHistory();
+
 // 定义路由
 const routes = [
     {
@@ -13,6 +15,6 @@ const routes = [
 ];
 
 export default createRouter({
-    history: createWebHistory(),
+    history,
     routes
 });
