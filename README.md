@@ -38,7 +38,7 @@ yarn serve
 ```
 ### 配置接口环境
 
-[关于vite环境变量](!https://cn.vitejs.dev/guide/env-and-mode.html);
+[关于vite环境变量](https://cn.vitejs.dev/guide/env-and-mode.html);
 
 ```bash
 # 配置本地开发接口地址
